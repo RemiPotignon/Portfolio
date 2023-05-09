@@ -47,6 +47,13 @@ nav ul li:hover {
     border-bottom-color: black;
 }
 
+button {
+    border: none;
+    background-color: #fff;
+    height: 25px;
+    cursor: pointer;
+}
+
 /* Style de la popup */
 .popup {
     display: none;
@@ -69,6 +76,10 @@ nav ul li:hover {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 9998;
+}
+
+.mon-cv {
+    height: 80vh;
 }
 
 .page-content {
